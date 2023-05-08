@@ -1,13 +1,13 @@
-package com.microservice.hrworker;
+package com.microservice.worker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HrWorkerApplication {
+public class WorkerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HrWorkerApplication.class, args);
+		SpringApplication.run(WorkerApplication.class, args);
 	}
 
 }
